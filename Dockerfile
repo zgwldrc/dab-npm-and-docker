@@ -17,4 +17,4 @@ RUN set -eux; \
 	dockerd --version; \
 	docker --version
 RUN apt-get update && apt-get install -y python3-pip && pip3 install awscli
-RUN npm install gulp
+RUN npm install -g gulp
